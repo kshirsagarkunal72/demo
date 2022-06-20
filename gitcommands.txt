@@ -1,0 +1,32 @@
+git --version : It shows you the version of the git software
+git init : It initialized the git so that a specific directory is managed by the git program, It starts tracking the changes in the specified directory
+git status : It displays the status of the file you have changed or removed or added into the git directory
+git add file1
+git add *
+git add -A
+git rm --cached file1 or git rm --cached *  : It will remove the files or folders from the caching/staging area to the working area
+git rm --cached * -f : In case files are not moving back to working area from staging area we have to use the force option
+git commit : It will commit all the files from staging area to the local repository
+git commit -m "updated version for git commands"
+git log : will show you the commit log for the commited files in the local repository
+git diff : It will show the difference between the current file and the latest commited file
+git config --global user.name "Parag Joshi"
+git config --global user.email parag.joshi@hematitecorp.com"
+git diff --staged : It will show the difference between the staging area and the current version of the commit
+git show : will show the difference between the latest commit and the current file
+git config --global user.name "Parag Joshi"
+git config --global user.email "parag.joshi@hematitecorp.com"
+git reset [commit] - This command will undo all the commits after the specified commit and preserves the changes locally
+git reset --hard [commit] - This command discards all history and goes bac to the specified commit
+git config --list : list of all configuration parameters
+git ls-files : it will list down all the files which are in the local repository
+git ls-tree --full-tree --name-only -r HEAD
+git log --pretty=oneline
+git log --pretty=full
+git log --pretty=medium
+git log --pretty=short
+git log --pretty=fuller
+git log --pretty=email
+
+
+
