@@ -27,6 +27,11 @@ DVCS - They don't rely on a central server to store all the versions of a projec
 
 In distribute version control systems every contributor has a local copy or "Clone" of the main repository i.e everyone maintains a local repository of their own which contains all the files and metadata present in the main repository
 
-Learning git commands
+Learning git 
+
+git --version
+git init
+git add SCM.txt
+
 
 
