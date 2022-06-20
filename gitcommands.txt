@@ -23,6 +23,8 @@ git ls-files : it will list down all the files which are in the local repository
 git ls-tree --full-tree --name-only -r HEAD
 git log --pretty=oneline
 git log --pretty=full
+----------------------------------
+git pull "https://github.com/joshipar/gitdemoinfoway.git" --allow-unrelated-histories
 git log --pretty=medium
 git log --pretty=short
 git log --pretty=fuller
