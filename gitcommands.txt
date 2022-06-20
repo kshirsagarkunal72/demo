@@ -29,4 +29,20 @@ git log --pretty=fuller
 git log --pretty=email
 
 
+git branch - it will display the list of all branches
+git branch <branchname> - It will create the branchname
+git checkout branchname - It will change the head pointer to test branch
+git merge <branchname> - It will merge other branch with the master branch
+git branch -d <branchname> - It will delete the branch
+git checkout -b <branchname> - It will create a new branch and checkout the new branch at the same time
+git rebase master - This is also a way of combining the work between different branches
 
+git remote add origin "git code url" - This will link local repository with the remote repository
+
+git remote - It will show the list of remote repositories
+
+git push origin master - it will push all my code from local repository to remote repository
+
+git pull origin master - it will copy all the code from your remote repository to the local repository
+
+git clone "git url" - it will copy the entire repository to the specific folder on your device
