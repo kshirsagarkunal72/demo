@@ -52,10 +52,7 @@ class Main {
         System.out.println("Percentage is"+ result);
         break;
 		
-	
-		
-	
-	
+		case: wadvance calculator function
 
       default:
         System.out.println("Invalid operator!");
