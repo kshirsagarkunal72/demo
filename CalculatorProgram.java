@@ -46,11 +46,7 @@ class Main {
         System.out.println(number1 + " / " + number2 + " = " + result);
         break;
 		
-	// percentage
-      case '%':
-        result = (number1 / 100)*100;
-        System.out.println(System.out.println("Percentage is:"+result);
-        break;
+	
 	
 
       default:
