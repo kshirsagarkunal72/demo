@@ -51,8 +51,6 @@ class CalculatorProgram {
         result = (number1%100)*100;
         System.out.println("Percentage is"+ result);
         break;
-		
-		case: wadvance calculator function
 
       default:
         System.out.println("Invalid operator!");
